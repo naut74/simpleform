@@ -1,0 +1,62 @@
+.form-container {
+    max-width: fit-content;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column; /* Căn chỉnh theo chiều dọc */
+    gap: 15px; /* Khoảng cách giữa các nhóm ô input */
+    border: 10px solid rgb(62, 252, 255);
+}
+
+.form-group {
+    display: flex;
+    align-items: center; /* Căn giữa theo trục dọc */
+}
+
+.form-group label {
+    width: 100px; /* Độ rộng cố định để các label thẳng hàng */
+    text-align: right; /* Căn phải tiêu đề label */
+    margin-right: 10px; /* Khoảng cách giữa label và ô input */
+}
+
+.form-group input {
+  
+    padding: 5px;
+}
+.check-group {
+    display: flex;  
+    align-items: first baseline;
+    padding-left: 50px;
+}
+    
+
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột, có thể tùy chỉnh */
+    gap: 10px; /* Khoảng cách giữa các checkbox */
+    padding: 10px;
+    margin-left: 0px;
+}
+
+.checkbox-grid label {
+    display: flex;
+    text-align: right;
+    margin-right: 10px;
+    color: orange;
+    align-items: center; /* Đảm bảo checkbox và văn bản trên cùng một hàng */
+}
+
+.checkbox-grid input[type="checkbox"] {
+    margin-right: 5px; /* Khoảng cách giữa checkbox và văn bản */
+}
+h2 {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    padding: 20px ;
+
+}
+.button-group {
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+    
