@@ -1,0 +1,30 @@
+.form-container {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(255, 255, 182);
+}
+.form-group {
+    display: flex;
+    align-items: center;
+}
+.form-group label {
+    width: 100px; 
+    text-align: right; 
+    margin-right: 10px; 
+}
+.form-group input { 
+    padding: 5px;
+}
+h2 {
+    text-align: center;
+    background-color: rgb(221, 255, 210);
+    color: rgb(70, 60, 203);
+    padding: 20px ;
+
+}
+.button-group {
+    padding-left: 100px;
+    padding-bottom: 20px;
+}

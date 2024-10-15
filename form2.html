@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <form class="form-container" method="post">
+        <h2>ĐĂNG KÍ HỌC VIÊN</h2>
+        <div class="form-group">
+            <label for="name">Họ và Tên</label>
+            <input type="text" name="name" size="50">
+        </div>
+        <div class="form-group">
+            <label for="birth"> Ngày sinh</label>
+            <input type="text" name="birth" size="30">
+        </div>
+        <div class="form-group">
+            <label for="gender">Giới Tính</label>
+            <label><input type="checkbox" name="gender" value="Nam" >Nam</label>
+            <label><input type="checkbox" name="gender" value="Nữ" >Nữ</label>
+        </div>
+        <div class="form-group">
+            <label for="direction">Địa chỉ</label>
+            <textarea name="direction" id="direction" rows="4" cols="50"></textarea>
+            
+        </div>
+        <div class="form-group">
+            <label for="grade">Lớp</label>
+            <select name="grade" id="" >
+                <option value="0">-Chọn lớp-</option>
+                <option value="1">Lớp 1</option>
+                <option value="2">Lớp 2</option>
+                <option value="3">Lớp 3</option>
+                <option value="4">Lớp 4</option>
+                <option value="5">Lớp 5</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Email"> Email</label>
+            <input type="email" name="email" size="35">
+        </div>
+
+        <div class="form-group">
+            <label for="Điện thoại">Điện thoại</label>
+            <input type="text" name="phone" size="35">
+        </div>
+
+        <div class="button-group">
+            <label for=""><input type="button" name="submitform" value="Đăng kí"></label>
+            <label for=""><input type="reset" name="resetform" value="Nhập lại"></label>    
+        
+        </div>
+
+
+    </form>
+</body>
+</html>
